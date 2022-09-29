@@ -1,15 +1,17 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
 *{
     margin: 0;
     padding: 0;
     font-family: 'Poppins', sans-serif;
 }
+
 .wrapper{
     position: absolute;
     width: 100%;
     height: 100%;
     overflow: hidden;
     background: linear-gradient(90deg,rgba(9,9,121,1) 0%, rgba(0,212,255,1)100%);
+    
 }
 .box div{
     position: absolute;
@@ -91,14 +93,15 @@
 
 }
 
-.navbar{
+/* .navbar{
     width: 100%;
     display: flex;
     align-items: center;
 
-}
+} */
 .logo{
-    width: 100px;
+    height: 200px;
+    width: 200px;
     cursor: pointer;
     margin: 30px 0;
 }
@@ -116,11 +119,11 @@ nav{
 
  button{ 
     width: 250px;
-    color: #fff; 
+    color: rgb(0, 0, 0); 
     text-align: center;
     padding: 15px 0px; 
-    background: transparent; 
-    border: 2px solid #fff;
+    background: white; 
+    /* border: 2px solid #fff; */
     margin: 8px 8px; 
     font-weight: bold;
     border-radius: 25px; 
@@ -138,14 +141,17 @@ nav{
   }
 
   .content h1{
+    font-family: 'Poppins', sans-serif;
     font-size: 60px;
     /* margin-top: 60px; */
   }
 
   .content p{
+    font-family: 'Poppins', sans-serif;
     margin: 20px auto;
     font-weight: 100;
     line-height: 25px;
+    word-spacing: 30px;
   } 
 
   .waviy {
@@ -166,8 +172,9 @@ nav{
     }
   }
   button:hover{
-    color: darkblue;
-    border-color: darkblue;
+    color: white;
+    border-color: black;
+    background: black;
 
   }
 
