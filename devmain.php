@@ -145,9 +145,9 @@
             }
             .logo{
                 /* display: block; */
-                margin-left: 550px;
+                margin-left: 530px;
                 margin-right: auto; 
-                width: 150px;
+                width: 180px;
                 padding-top:25px;
                 padding-bottom:10px; 
                 padding-left:20px;

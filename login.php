@@ -34,7 +34,7 @@
                     
                     background-color:#191970; 
 		            border-radius:30px ; 
-		            border-radius: 2px 20px;
+		            /* border-radius: 2px 20px; */
 		            width:35%;
 		            height:62%;
                     top:20%;
