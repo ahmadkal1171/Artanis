@@ -72,11 +72,12 @@
                 }
                 .submit{
                     text-align:center;
-                    width:40%   
+                    width:40%;   
                 }
                 
                 .submit:hover{
-                    color:darkblue;
+                    color:#2a2b2f;
+                    background: white; 
                 }
                 .logo{
                     display: block;
@@ -90,6 +91,8 @@
                     display: block;
                     margin-left: auto;
                     margin-right: auto;
+                    background: #2a2b2f;   
+                    color: white; 
     
                 }
             </style>
