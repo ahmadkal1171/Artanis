@@ -21,7 +21,7 @@
                     width:100%;
                     height:100%;
                     object-fit:cover;
-                    opacity: 0.8;
+                    opacity: 0.6;
                 
                     /* background-image:url('backgroundlogin.jpg'); 
                     background-repeat:no repeat;
@@ -72,7 +72,7 @@
                 }
                 .submit{
                     text-align:center;
-                    width:40%;   
+                    width:30%;   
                 }
                 
                 .submit:hover{
