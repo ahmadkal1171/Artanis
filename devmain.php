@@ -6,7 +6,7 @@
         <script src="https://kit.fontawesome.com/108ac02d1f.js" crossorigin="anonymous"></script>
         <link rel="stylesheet" href="devstyle.css">
         <style>
-            @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,200&display=swap');
+            @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,400&display=swap');
             * {
                 margin: 0;
                 padding: 0;
@@ -168,6 +168,8 @@
             text-decoration: none;
             text-transform: uppercase;
             margin-right:100px;
+            border: 2px solid #fff;
+            font-size:15px;
           }
 
 
@@ -177,6 +179,7 @@
             cursor: pointer;
             background-color:white;
             color:#232427;
+            border: 2px solid #2a2b2f; 
           }
 
           a:active {
@@ -189,7 +192,7 @@
 
     <body>
       
-      <img src="logo.png" class="logo" onclick="windows.location.href='main.html'">
+        <img src="logo.png" class="logo" onclick="window.location.href='main.html'">
 
         <video src="devmain.mp4" muted loop autoplay></video>
         <div class="logout">
