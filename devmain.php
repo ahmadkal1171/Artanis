@@ -1,8 +1,12 @@
-<!DOCTYPE html>
 <?php
-  session_start();
+    session_start();
+    ob_start();
 ?>
+<!DOCTYPE html>
+
 <html>
+  
+
     <head>
         <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
         <title>Artanis Cloud Admin Page </title>
@@ -194,26 +198,16 @@
     </head>
 
     <body>
-      <?php
-        if($_SESSION['loggedIn']){
-        //allow
-        }
-        else{
-            //redirect to the login page
-            header('Location: login.php'); 
-        }
-        // include "config.php";
-        // // if(empty($_SESSION['has_login'])){
-        // //   header("Location: login.php");
-        // // }
-        // if($_SESSION['loggedIn'])
-        //   //allow
-        //  else{
-        //   header('Location: /login.html'); 
-        //  }
-        //   //redirect to the login page
-          
-      ?>
+<?php
+    if(empty($_SESSION["username"])){ /* IF NO USERNAME REGISTERED TO THE SESSION VARIABLE */
+          header("LOCATION:login.php"); /* REDIRECT USER TO LOGIN PAGE */
+          ob_end_flush();
+    }
+    else{
+      header("LOCATION:devmain.php"); 
+
+    }
+?>
       
         <img src="logo.png" class="logo" onclick="window.location.href='main.html'">
 

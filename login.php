@@ -125,8 +125,8 @@
 			if(isset($_POST["login"])){
 				$username = $_POST["username"];
 				$password = $_POST["password"];
+                $_SESSION['loggedIn'] = true;  
 				
-
 				$query = "SELECT username,adminpass
 						FROM admin
 						WHERE username = '$username'
@@ -138,16 +138,12 @@
 				if(mysqli_num_rows($sendsql) != 0){
 					header("Location: devmain.php");	
                     $_SESSION["username"] = $username;
-				    $_SESSION["password"] = $password;
-                    
-                    
+				    $_SESSION["password"] = $password;    
 				}
 				else{
 					echo 
 					"This username or password is incorrect";
-				}
-				
-				
+				}		
 			}
 		?>
     </body>
