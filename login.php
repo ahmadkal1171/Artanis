@@ -121,6 +121,7 @@
 			if(!empty($_SESSION['has_login'])){
 				header("Location: devmain.php");
 			}
+
 			if(isset($_POST["login"])){
 				$username = $_POST["username"];
 				$password = $_POST["password"];
@@ -138,6 +139,8 @@
 					header("Location: devmain.php");	
                     $_SESSION["username"] = $username;
 				    $_SESSION["password"] = $password;
+                    
+                    
 				}
 				else{
 					echo 

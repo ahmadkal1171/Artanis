@@ -1,4 +1,7 @@
 <!DOCTYPE html>
+<?php
+  session_start();
+?>
 <html>
     <head>
         <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
@@ -191,6 +194,26 @@
     </head>
 
     <body>
+      <?php
+        if($_SESSION['loggedIn']){
+        //allow
+        }
+        else{
+            //redirect to the login page
+            header('Location: login.php'); 
+        }
+        // include "config.php";
+        // // if(empty($_SESSION['has_login'])){
+        // //   header("Location: login.php");
+        // // }
+        // if($_SESSION['loggedIn'])
+        //   //allow
+        //  else{
+        //   header('Location: /login.html'); 
+        //  }
+        //   //redirect to the login page
+          
+      ?>
       
         <img src="logo.png" class="logo" onclick="window.location.href='main.html'">
 
