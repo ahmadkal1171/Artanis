@@ -200,13 +200,13 @@
     <body>
 <?php
     if(empty($_SESSION["username"])){ /* IF NO USERNAME REGISTERED TO THE SESSION VARIABLE */
-          header("LOCATION:login.php"); /* REDIRECT USER TO LOGIN PAGE */
-          ob_end_flush();
+          header("LOCATION:login.php"); /* REDIRECT USER TO LOGIN PAGE */    
+          ob_end_flush(); 
     }
-    else{
-      header("LOCATION:devmain.php"); 
-
-    }
+    // else{
+    //   header("LOCATION:devmain.php"); 
+    // }
+    
 ?>
       
         <img src="logo.png" class="logo" onclick="window.location.href='main.html'">
