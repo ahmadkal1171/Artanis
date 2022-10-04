@@ -21,7 +21,8 @@
                     width:100%;
                     height:100%;
                     object-fit:cover;
-                    opacity: 0.6;
+                    opacity: 0.6; 
+                    
                 
                     /* background-image:url('backgroundlogin.jpg'); 
                     background-repeat:no repeat;
