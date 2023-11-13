@@ -36,8 +36,8 @@
                     background-color:#191970; 
 		            border-radius:30px ; 
 		            /* border-radius: 2px 20px; */
-		            width:35%;
-		            height:62%;
+		            width:31%;
+		            height:50%;
                     top:20%;
                     left:33%; 
                     position: absolute;

@@ -152,10 +152,10 @@
             }
             .logo{
                 /* display: block; */
-                margin-left: 530px;
+                margin-left: 850px;
                 margin-right: auto; 
                 width: 180px;
-                padding-top:25px;
+                padding-top:40px;
                 padding-bottom:10px; 
                 padding-left:20px;
                 cursor:pointer;
@@ -209,7 +209,7 @@
     
 ?>
       
-        <img src="logo.png" class="logo" onclick="window.location.href='main.html'">
+        <img src="logo.png" class="logo" onclick="window.location.href='main.html'"></img>
 
         <video src="devmain.mp4" muted loop autoplay></video>
         <div class="logout">
@@ -246,7 +246,7 @@
               <div class="box">
                 <div class="content">
                   <!-- <h2><img src="logoword.png" alt="Avatar" style="width:100%"></h2> -->
-                  <h3>PORTAL <br><br> HTCKL 2.0</h3>
+                  <h3>PORTAL  <br><br> HTCKL 2.0</h3>
                   <!-- <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore, totam velit? Iure nemo labore inventore?</p> -->
                   <a href="https://htckl-mockup-1.ezran.my/">Go Now</a>
                 </div>
